@@ -1,0 +1,25 @@
+@media (min-width: 0px) and (max-width: 767px) {
+    /* services start */
+    .services .content-block .img-fluid {
+        max-width: 60%;
+    }
+    /* services end */
+
+    /* about-us start */
+    .content-poster {
+        text-align: center;
+    }
+    .content-poster .img-fluid {
+        max-width: 60%;
+    }
+    /* about-us end */
+}
+@media (min-width: 991px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+          pointer-events: none;
+    }
+}
